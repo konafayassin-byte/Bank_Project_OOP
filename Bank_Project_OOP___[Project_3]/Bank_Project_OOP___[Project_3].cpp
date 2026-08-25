@@ -11,6 +11,7 @@ int main()
 			_cause a Circular call between the main function and the _Logout() function in clsMainscreen.h
 			_& an Error will occur 2 The Compiler that the function is already defined in the main function. 
         */
+
         clsLoginScreen::ShowLoginScreen();
     }
     
