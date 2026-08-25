@@ -83,12 +83,18 @@
     <ClInclude Include="clsUtil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="clsLoginRegister.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Clients.txt">
       <Filter>Resource Files</Filter>
     </Text>
     <Text Include="Users.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="RegisterLogin.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>

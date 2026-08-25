@@ -6,6 +6,7 @@
 #include <iomanip>
 #include "clsMainscreen.h"
 #include "Global.h"
+#include "clsLoginRegister.h"
 
 class clsLoginScreen :protected clsScreen
 {
@@ -48,6 +49,7 @@ private:
 
         if (!LoginFaild)
         {
+            clsLoginRegister::Save_Logins_2_File(CurrentUser);
             clsShow_Main_Screen::ShowMainMenue();
         }
 
@@ -57,6 +59,8 @@ private:
         }
 
     }
+
+
 
 public:
 

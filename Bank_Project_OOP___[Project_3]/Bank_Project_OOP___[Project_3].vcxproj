@@ -147,6 +147,7 @@
     <ClInclude Include="clsDeleteUserScreen.h" />
     <ClInclude Include="clsDepositScreen.h" />
     <ClInclude Include="clsFindUserScreen.h" />
+    <ClInclude Include="clsLoginRegister.h" />
     <ClInclude Include="clsLoginScreen.h" />
     <ClInclude Include="clsMainscreen.h" />
     <ClInclude Include="clsDeleteClientScreen.h" />
@@ -166,6 +167,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="Clients.txt" />
+    <Text Include="RegisterLogin.txt" />
     <Text Include="Users.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
