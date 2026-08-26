@@ -12,7 +12,7 @@ private:
 
         string UserRecord = "";
         UserRecord += clsDate::DateToString(clsDate::GetSystemDate()) += " - ";
-        UserRecord += clsDate::GetSystemTimeString()+= " - ";
+        UserRecord += clsDate::GetSystemDateTimeString()+= " - ";
         UserRecord += User.GetUserName() + Seperator;
         UserRecord += User.GetPassword() + Seperator;
         UserRecord += to_string(User.Permissions);

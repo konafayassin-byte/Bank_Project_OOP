@@ -100,5 +100,8 @@
     <Text Include="RegisterLogin.txt">
       <Filter>Resource Files</Filter>
     </Text>
+    <Text Include="TransferLog.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>
