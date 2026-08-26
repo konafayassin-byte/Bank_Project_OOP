@@ -152,10 +152,10 @@
     <ClInclude Include="clsMainscreen.h" />
     <ClInclude Include="clsDeleteClientScreen.h" />
     <ClInclude Include="clsTotalBalancesScreen.h" />
+    <ClInclude Include="clsTransferScreen.h" />
     <ClInclude Include="clsUpdateClientScreen.h" />
     <ClInclude Include="clsFindClientScreen.h" />
     <ClInclude Include="clsTransactionScreen.h" />
-    <ClInclude Include="clsTransactions_Logic.h" />
     <ClInclude Include="clsManageUsers.h" />
     <ClInclude Include="clsUpdateUserScreen.h" />
     <ClInclude Include="clsUser.h" />

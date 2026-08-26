@@ -358,19 +358,19 @@ public:
         Save();
     }
 
+
     bool Withdraw(double Amount)
     {
-        // Ensure the amount is positive and there are sufficient funds
-        if (Amount <= 0) return false;
-
-        if (_AccountBalance >= Amount)
+        if (Amount > _AccountBalance)
+        {
+            return false;
+        }
+        else
         {
             _AccountBalance -= Amount;
             Save();
-            return true;
         }
 
-        return false;
     }
 
     static double GetTotalBalances()
@@ -388,5 +388,16 @@ public:
         return TotalBalances;
     }
 
+    bool Transfer(float Amount, clsBankClient& DestinationClient)
+    {
+        if (Amount > AccountBalance)
+        {
+            return false;
+        }
+
+        Withdraw(Amount);
+        DestinationClient.Deposit(Amount);
+        return true;
+    }
 };
 
