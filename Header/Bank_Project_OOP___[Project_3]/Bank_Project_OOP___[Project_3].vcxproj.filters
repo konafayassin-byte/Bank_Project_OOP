@@ -92,6 +92,18 @@
     <ClInclude Include="clsTransferLogScreen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="InterfaceCommunication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCurrency.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCurrencyExchangeMainScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCurrencyListScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Clients.txt">
@@ -104,6 +116,9 @@
       <Filter>Resource Files</Filter>
     </Text>
     <Text Include="TransferLog.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Currencies.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>

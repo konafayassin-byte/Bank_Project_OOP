@@ -144,9 +144,13 @@
   <ItemGroup>
     <ClInclude Include="clsAddNewUserScreen.h" />
     <ClInclude Include="clsClientListScreen.h" />
+    <ClInclude Include="clsCurrency.h" />
+    <ClInclude Include="clsCurrencyExchangeMainScreen.h" />
+    <ClInclude Include="clsCurrencyListScreen.h" />
     <ClInclude Include="clsDeleteUserScreen.h" />
     <ClInclude Include="clsDepositScreen.h" />
     <ClInclude Include="clsFindUserScreen.h" />
+    <ClInclude Include="InterfaceCommunication.h" />
     <ClInclude Include="clsLoginRegister.h" />
     <ClInclude Include="clsLoginRegisterScreen.h" />
     <ClInclude Include="clsLoginScreen.h" />
@@ -169,6 +173,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="Clients.txt" />
+    <Text Include="Currencies.txt" />
     <Text Include="RegisterLogin.txt" />
     <Text Include="TransferLog.txt" />
     <Text Include="Users.txt" />
