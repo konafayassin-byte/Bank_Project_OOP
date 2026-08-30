@@ -28,7 +28,7 @@ public:
         cout << setw(8) << left << "" << "| " << left << setw(30) << "Country";
         cout << "| " << left << setw(10) << "Code";
         cout << "| " << left << setw(35) << "Name";
-        cout << "| " << left << setw(12) << "Rate";
+        cout << "| " << left << setw(12) << "Rate/(1$)";
 
         cout << setw(8) << left << "" << "\n\t___________________________________________________________________________________________________\n" << endl;
 
