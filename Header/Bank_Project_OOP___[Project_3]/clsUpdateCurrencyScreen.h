@@ -63,6 +63,12 @@ public:
 
 			cout << "Currncy Rate Updated Sccessfully ! & New Rate is " << C.Rate();
 
+			_PrintCurrencyCard(C);
+
+		}
+		else
+		{
+			return;
 		}
 
 
