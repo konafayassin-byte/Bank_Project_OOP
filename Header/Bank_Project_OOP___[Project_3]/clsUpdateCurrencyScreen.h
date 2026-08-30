@@ -61,6 +61,8 @@ public:
 
 			ReadRate_Update(C);
 
+			cout << "Currncy Rate Updated Sccessfully ! & New Rate is " << C.Rate();
+
 		}
 
 

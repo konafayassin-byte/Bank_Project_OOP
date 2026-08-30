@@ -58,7 +58,7 @@ Dominica#//#XCD#//#E.C. Dollar#//#3.105000
 Dominican Republic#//#DOP#//#Dominican Peso#//#62.923401
 East Timor#//#USD#//#US Dollar#//#1.000000
 Ecuador#//#USD#//#US Dollar#//#1.000000
-Egypt#//#EGP#//#Egyptian Pound#//#50.529999
+Egypt#//#EGP#//#Egyptian Pound#//#50.540001
 El Salvador#//#USD#//#US Dollar#//#1.000000
 Equatorial Guinea#//#XAF#//#CFA Franc#//#707.712280
 Eritrea#//#ERN#//#Eritrea Nakfa#//#17.250000
