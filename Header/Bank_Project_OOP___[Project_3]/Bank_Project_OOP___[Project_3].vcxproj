@@ -152,6 +152,7 @@
     <ClInclude Include="clsFindCurrencyScreen.h" />
     <ClInclude Include="clsFindUserScreen.h" />
     <ClInclude Include="clsUpdateCurrencyScreen.h" />
+    <ClInclude Include="CurrencyCalculatorScreen.h" />
     <ClInclude Include="InterfaceCommunication.h" />
     <ClInclude Include="clsLoginRegister.h" />
     <ClInclude Include="clsLoginRegisterScreen.h" />

@@ -65,7 +65,6 @@ private:
         return false;
     }
 
-    
     static void _PerformFindCurrencyOption(eOptions Op)
     {
         switch (Op)
